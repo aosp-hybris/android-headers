@@ -6,4 +6,4 @@ prefix=/usr
 exec_prefix=${prefix}
 includedir=${prefix}/include
 
-Cfglags: -I${includedir}/android
+Cflags: -I${includedir}/android
