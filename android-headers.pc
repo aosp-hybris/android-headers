@@ -1,6 +1,6 @@
 Name: Android header files
 Description: Header files needed to write application for the Android platform
-Version: 4.2.2
+Version: 4.4.2
 
 prefix=/usr
 exec_prefix=${prefix}
