@@ -1,19 +1,28 @@
 ================================================
-hardware/libhardware @ Thu Aug 21 10:20:10 Local time zone must be set--see zic manual page 2014
+hardware/libhardware @ Tue Sep  2 19:29:18 CST 2014
 ================================================
-+ cd /media/build/Android/aosp-hybris
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1
 + repo status hardware/libhardware
 nothing to commit (working directory clean)
-+ cd /media/build/Android/aosp-hybris/hardware/libhardware
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1/hardware/libhardware
 + git show-ref --head
 48697f6dc249d1238243677de77d3a0eb6a17b3f HEAD
+353b92589ecb50fb90ebffdec4dadff1531307b9 refs/remotes/aosp/armv8-linaro-master-july29
+5ecbb8067789854f471cd73ce4650ac91a2e1b3e refs/remotes/aosp/cdma-import
+cd7924359db625a8f985332cc7404073019ea319 refs/remotes/aosp/cupcake
+cd7924359db625a8f985332cc7404073019ea319 refs/remotes/aosp/cupcake-release
+86b3623dbbd289066b0e18d72408a6cc572e0407 refs/remotes/aosp/dev_budapest
+8d567480b45a801a1955e4743c5eeae431d58f56 refs/remotes/aosp/donut
+f0a3c389eba7edc0631b8de60fae41a73432306b refs/remotes/aosp/donut-plus-aosp
 8d567480b45a801a1955e4743c5eeae431d58f56 refs/remotes/aosp/donut-release
 8d567480b45a801a1955e4743c5eeae431d58f56 refs/remotes/aosp/donut-release2
+be0a1d3b7677d08b928479cfa4fa16b734183ec9 refs/remotes/aosp/eclair
 baf21439df7b4e641dfa990f12c287dc53c40f09 refs/remotes/aosp/eclair-passion-release
 baf21439df7b4e641dfa990f12c287dc53c40f09 refs/remotes/aosp/eclair-release
 baf21439df7b4e641dfa990f12c287dc53c40f09 refs/remotes/aosp/eclair-sholes-release
 baf21439df7b4e641dfa990f12c287dc53c40f09 refs/remotes/aosp/eclair-sholes-release2
 3b138026094f8227eb2cdfd22450df9a60557c8d refs/remotes/aosp/froyo
+b01a043df41e987321f6c01930ac306befb1d3dc refs/remotes/aosp/froyo-plus-aosp
 3b138026094f8227eb2cdfd22450df9a60557c8d refs/remotes/aosp/froyo-release
 33fddf0ca9801080472116654264be63a21b6e80 refs/remotes/aosp/gingerbread
 cd347fdf74d5f2e0af856455c514e655f40a6fdb refs/remotes/aosp/gingerbread-mr4-release
@@ -49,12 +58,58 @@ b0c303229fcbc89a0afa8f170de64f2a7fee9d6c refs/remotes/aosp/kitkat-cts-dev
 b0c303229fcbc89a0afa8f170de64f2a7fee9d6c refs/remotes/aosp/kitkat-release
 56910cf52332219c6a23bc12596b261c127d93bf refs/remotes/aosp/kitkat-wear
 6f91ded57bf133fbf572cde2f5623bb8289f7eaa refs/remotes/aosp/l-preview
+6d65bb9da8a1aa2e574c5dd194cbb0deaddf5fba refs/remotes/aosp/linaro-armv8-14.07
+2b838c48f8c4193e33675859dcd2d492c15fe971 refs/remotes/aosp/linaro-armv8-14.08
+6cbafa8de7164aa6aa68fba38b87efa055054037 refs/remotes/aosp/linaro-armv8-20140531
+d3080813c4284cd9a700bdc86bf3ee7807b8ceb4 refs/remotes/aosp/linaro-armv8-20140613
+2b838c48f8c4193e33675859dcd2d492c15fe971 refs/remotes/aosp/linaro-armv8-master
+572b8e22d78b072c67536daa361ae5c80c7f6ed9 refs/remotes/aosp/linaro-juice-master
+fde5411c6c3b638def7f45996e015c075a2d8541 refs/remotes/aosp/linaro-juice-master-20140515
+750289d96ebbec97e3ff59c93c377530c64b7a8e refs/remotes/aosp/linaro-juice2
+81776a7e8c227ee54334c0b63900cd7b3143bf31 refs/remotes/aosp/linaro-juice2-20140507
+f0abaf11854c07c47238e8014360317bb6e5c683 refs/remotes/aosp/linaro-juno-master
+25b68b5c24e443c326af73a33cea6dc45e845254 refs/remotes/aosp/linaro_android_2.3.3
+f50b075a8b88eff482628e8ab62a04539117c7ea refs/remotes/aosp/linaro_android_2.3.5
+f50b075a8b88eff482628e8ab62a04539117c7ea refs/remotes/aosp/linaro_android_2.3.7
+d44066f617faa4b32cf802458b851e6563af93c2 refs/remotes/aosp/linaro_android_4.0.1
+845c1511151677ddb98035f932d263d8fe962213 refs/remotes/aosp/linaro_android_4.0.1_snowball
+2e33f4abeb6a773301d8f3834e935da0435e50d6 refs/remotes/aosp/linaro_android_4.0.3
+14654ddaa18de1bfe75f46941a79138a503dc32f refs/remotes/aosp/linaro_android_4.0.3_snowball
+9a7fe85702ed5cff3dbc7c8bfddbc896b138bbd5 refs/remotes/aosp/linaro_android_4.0.3_snowball_mm
+2e33f4abeb6a773301d8f3834e935da0435e50d6 refs/remotes/aosp/linaro_android_4.0.4
+f26ebeb607b37f6c7423592e21983f83e7b260d5 refs/remotes/aosp/linaro_android_4.0.4_snowball
+f4eb561d962271921cd1ae2df510d19ef399f3cb refs/remotes/aosp/linaro_android_4.0.4_snowball_mm
+b1bc9c35e4da62f56585390ab2b64b054a5ec7ee refs/remotes/aosp/linaro_android_4.1.1
+b1bc9c35e4da62f56585390ab2b64b054a5ec7ee refs/remotes/aosp/linaro_android_4.1.2
+9625fba7a6a3ca85992ee5b965ccd74bc3c522b1 refs/remotes/aosp/linaro_android_4.2
+9625fba7a6a3ca85992ee5b965ccd74bc3c522b1 refs/remotes/aosp/linaro_android_4.2.1
+bca3894993bbfbdda843fc4914329599bc070ba2 refs/remotes/aosp/linaro_android_4.2.1_critical_fixes_only
+532c859ed05ae075c481d0b7448d9472090ff431 refs/remotes/aosp/linaro_android_4.2.2
+6a05c2b2658a4a71f3bd81ce17da400427e4cd08 refs/remotes/aosp/linaro_android_4.2.2_critical_fixes_only
+c4aef515d56db43930f8d16287b570dc14fbdf40 refs/remotes/aosp/linaro_android_4.3
+68d24dac2f078d95b6a746c0b9da3bf1827ca20a refs/remotes/aosp/linaro_android_4.3.1
+0bbf51b19f51b6302b0f356a3c40668b4a8cc22d refs/remotes/aosp/linaro_android_4.3_juice
+e6b9f29f88ce82839082c788ebfb4a19177f7afc refs/remotes/aosp/linaro_android_4.4
+c5752527ea0143d77a60fbce8fb23e50e9718f51 refs/remotes/aosp/linaro_android_4.4.2
+3181e83bf7588a53e69dbe0135c82b72f9c61514 refs/remotes/aosp/linaro_android_4.4.2_juice
+87730fd9f0d8288dc858c2be6d48dbf84d2618f9 refs/remotes/aosp/linaro_android_4.4.3
+87730fd9f0d8288dc858c2be6d48dbf84d2618f9 refs/remotes/aosp/linaro_android_4.4.4
+40254778c5f89751a1246a5e06171c2cbb07dc71 refs/remotes/aosp/linaro_android_4.4_juice
 3e618a6aa10c783d1536f20edfc3347939cfa18e refs/remotes/aosp/master
+d6054a36475b5ff502b4af78f7d272a713c1a8e7 refs/remotes/aosp/release-1.0
 1fbbb08ddda4321ccdb05345658044c1f0235997 refs/remotes/aosp/tools_r20
 42a70b67abf0fce9c0f898c92a6e3c36e92773e9 refs/remotes/aosp/tools_r21
 46e9befbe45e0d53c7ad1cb0f570865c08335aab refs/remotes/aosp/tools_r22
 bd5015e0f3b79d8b8e7f9b1926bbf76985ac8c61 refs/remotes/aosp/tools_r22.2
-345a8031c4de4ea86fa92f4d2f6fa462b9b58076 refs/remotes/m/hybris-4.2.2_r1
+b01a043df41e987321f6c01930ac306befb1d3dc refs/remotes/aosp/tools_r7
+b01a043df41e987321f6c01930ac306befb1d3dc refs/remotes/aosp/tools_r8
+b01a043df41e987321f6c01930ac306befb1d3dc refs/remotes/aosp/tools_r9
+345a8031c4de4ea86fa92f4d2f6fa462b9b58076 refs/remotes/m/android-4.2.2_r1
+5101a9bab10d8c0ca9f9f6af5122381dfd984fc1 refs/tags/android-1.0
+10ab442dbead11b51f310719c8e7952183a45f07 refs/tags/android-1.5
+d02df624a2ea59f36bdd860be79eb135939022b4 refs/tags/android-1.5r2
+06bb54c96cee9f5182e09b1b7dc4a2432db17c25 refs/tags/android-1.5r3
+2b6df3c2b88e79b162fe71d8d1c2e7cad109dd76 refs/tags/android-1.5r4
 aae56a02bf7640a429410c178cdcdeea73fcb6ce refs/tags/android-1.6_r1
 3fc795e54325705199cf5d9dd5056df4e610d90a refs/tags/android-1.6_r1.1
 5e497808a9a5068d9becf95682cbe28906f672ac refs/tags/android-1.6_r1.2
@@ -83,6 +138,7 @@ dd194d7a53a798d91f118dab862f38f5a3119bfb refs/tags/android-2.2.3_r2.1
 d4e717c8ba6a7ac724d3dd90a834f97613be9d3c refs/tags/android-2.3.2_r1
 dcb38885c30508d9ff09b7953a019d48e5873955 refs/tags/android-2.3.3_r1
 3aecab2f725c6b0da6a92db3f0734c9d9c2b483f refs/tags/android-2.3.3_r1.1
+d1c4ef17877c931fb48ca98798c8d4a5b2d5fc76 refs/tags/android-2.3.3_r1a
 918ffc9e0b3fad66856363a252948a3cfa4a1913 refs/tags/android-2.3.4_r0.9
 0d4c05346b9f2bfcb2a0c12efebda454d16af87b refs/tags/android-2.3.4_r1
 76f783807715a1181adb7c7287b9a9e9ccfe5d8c refs/tags/android-2.3.5_r1
@@ -154,10 +210,28 @@ ad32f8bc22840a3031b010bb15d139da44ce655f refs/tags/android-4.4_r1.1.0.1
 92fe2ec3f4763d3bdbdd2e04ff5fbc21e83ae350 refs/tags/android-4.4_r1.2
 4d4f7b40c60c2f0e3f71a6a403ef1835bde8cc79 refs/tags/android-4.4_r1.2.0.1
 e58325fd8e4fb943c0b2070e6ad2444a323e561a refs/tags/android-4.4w_r1
+4e9a132bd2b1fe6caa668fb7caec7a12f87ee886 refs/tags/android-adt-0.9.8
+ce339cf7aeca1a768bbe19815344b670e43a23c6 refs/tags/android-adt-0.9.9
+aae3191098f1689bda2cf1564d1494985b9ff8fe refs/tags/android-cts-2.1_r2
+79b7c439bf7d154e1b38b6341718031c58613339 refs/tags/android-cts-2.1_r3
+8560ddc3aaa22161617a2efe647204e0725c573d refs/tags/android-cts-2.1_r4
+868e9f0500bdcbf38eae8dc9455e5811d37f32d4 refs/tags/android-cts-2.1_r5
+be4821eb8f00e0f69c4d66b2e2481e9990f23d31 refs/tags/android-cts-2.2_r1
+e608d42ba5ef6abbd64c154846c19a5293af5cf2 refs/tags/android-cts-2.2_r2
+3d56179e48d2ecdc257ca654e96cffd4485f6178 refs/tags/android-cts-2.2_r3
+bd85288a390de7f671596f7c8bc4e7da357d0135 refs/tags/android-cts-2.2_r4
+5e6a77b7bc5633c5477fdacf86bf85b2bfbe7a3a refs/tags/android-cts-2.2_r5
+bc716fb3b38f64edf18d80f4a836fafce800bc47 refs/tags/android-cts-2.2_r6
+c902f013a04fccc19bed21b8168be31e7deb8cdb refs/tags/android-cts-2.2_r7
 cbabe65cf26ae1ddc8d04223773562a53f3042bc refs/tags/android-cts-2.2_r8
+cf4f5b2e4d002298e062764d1e9739e9fca1e1ee refs/tags/android-cts-2.3_r1
 3b5335bf134072164ed5aa97ee0eaf10d0a283bc refs/tags/android-cts-2.3_r10
 56fdbae6881fcca6a85572c01d3aaeb12dea5e74 refs/tags/android-cts-2.3_r11
 85d7061e74822e1e476568679c1f202741733e9e refs/tags/android-cts-2.3_r12
+8e1fa2ee726732b343012a2bf8d2b43129bc7f68 refs/tags/android-cts-2.3_r2
+fb9665da975ab1382087306610123cf5953ffb13 refs/tags/android-cts-2.3_r3
+e94478924f0aa7fe95b14fa9281a85ed27057ad0 refs/tags/android-cts-2.3_r4
+1b404b0aec3d784f4830b5dadb75aab8eaac44bd refs/tags/android-cts-2.3_r5
 89ad5f0121b83fbc7af0c489fcded12316e5fae0 refs/tags/android-cts-4.0.3_r1
 32425dfa6a84b763af4ca6b8840bca1cd78266c4 refs/tags/android-cts-4.0.3_r2
 b7f113abf7d77581b3d597ad06b461250feb3bb6 refs/tags/android-cts-4.0_r1
@@ -169,34 +243,61 @@ c2d7cb738b8f0ef08d8256e8f630c00229467454 refs/tags/android-cts-4.2_r2
 70a444aa7851ac95b0fe4aaae72149c2024f4126 refs/tags/android-cts-4.4_r1
 697b60884d6acf7240258fe75bb6e6e94910fd81 refs/tags/android-cts-verifier-4.0.3_r1
 31f10c37537d18b2797872d21c594f7d5344f7fe refs/tags/android-cts-verifier-4.0_r1
+17bbfd3d257c494f42d766c7d785746aa8b5fbb7 refs/tags/android-sdk-1.5-pre
+e3a4af07ca9d641de3f8c39abfffa596b3b1295e refs/tags/android-sdk-1.5_r1
+103bb7b9a53bd065c3d73fb5d63ded565dec3f1d refs/tags/android-sdk-1.5_r3
+ba31d9c62bd9c06e69a4c1a204262f78e5da39c5 refs/tags/android-sdk-1.6-docs_r1
+9e5c2bdd0874e8dbb6c33985255be188a9156be2 refs/tags/android-sdk-1.6_r1
+6c0189768110977b74b57a2627a7c1b70883b1d9 refs/tags/android-sdk-1.6_r2
+2edca78c3abfa03688fa35a9c03a9db903cf7d6e refs/tags/android-sdk-2.0.1-docs_r1
+aab418f2c56f223796035a5b1a081c670e7c2a33 refs/tags/android-sdk-2.0.1_r1
+0114c4dc0087b4aaf8ff2642b58e4dfbecfa5175 refs/tags/android-sdk-2.0_r1
+daba98d972a59d8ce468293c2d42be16d3126480 refs/tags/android-sdk-2.1_r1
+0f07a7f8423f56437d555849617ec089c881319e refs/tags/android-sdk-2.2_r1
+4f1dba6ff80e3d8323525438fd5f3265991d271d refs/tags/android-sdk-2.2_r2
+e4ffaab8272109f73a8834a4f2a328ad50ea8861 refs/tags/android-sdk-2.3.4_r1
 de3df8831d7e4cf981386bf656f9d8fc1d7105ff refs/tags/android-sdk-4.0.3-tools_r1
 8c310941e8e74ac945f573043aec1dd227c2bc45 refs/tags/android-sdk-4.0.3_r1
 d8aaa0d315d74bef9f32312219767cb7581d5d05 refs/tags/android-sdk-4.4.2_r1
 976873fbfc23d6cee91011692d4ee6275f4cb1c2 refs/tags/android-sdk-4.4.2_r1.0.1
+ba7758f154e13256656b081611d4a08da321be23 refs/tags/android-sdk-adt_r12
 128c36ba2bf5e8d540e2a9d698add1b3d2f3f455 refs/tags/android-sdk-adt_r16.0.1
 990bfa8f4472e316b6fb6396e74d1f21f22251b7 refs/tags/android-sdk-adt_r20
 dc7e1a796f2eccee298adb83a9b18ca94b64d144 refs/tags/android-sdk-support_r11
+22da7aedb3c076dd00a87b72dce7e8d6e794e567 refs/tags/android-sdk-tools_r12
+3eb7039ed930f2fab9a7257dc29399aa7eb694d5 refs/tags/android-sdk-tools_r2
+a74e20100da47f6c39b574fc9363261895927a12 refs/tags/android-sdk-tools_r3
+60f91ddbaa5e04744aeafc0c326117326a6f875e refs/tags/android-sdk-tools_r4
+7a91ab41c25bd15e8e7a5662f431373ba4565774 refs/tags/android-sdk-tools_r5
+e3d09917508dfec90ed1accbe1eb208969a603a5 refs/tags/android-sdk-tools_r6
+4087880d73961a62d01ba0e4bd27c1753a81ed2d refs/tags/android-sdk-tools_r7
 + git remote -v
 aosp	https://android.googlesource.com/platform/hardware/libhardware (fetch)
 aosp	https://android.googlesource.com/platform/hardware/libhardware (push)
 
 
 ================================================
-hardware/libhardware_legacy @ Thu Aug 21 10:20:10 Local time zone must be set--see zic manual page 2014
+hardware/libhardware_legacy @ Tue Sep  2 19:29:18 CST 2014
 ================================================
-+ cd /media/build/Android/aosp-hybris
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1
 + repo status hardware/libhardware_legacy
 nothing to commit (working directory clean)
-+ cd /media/build/Android/aosp-hybris/hardware/libhardware_legacy
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1/hardware/libhardware_legacy
 + git show-ref --head
 a7c17deb32fe28230b77b0dff17bb113088a5c16 HEAD
+c69847d6e5b418ef8e77893de73925aac5c64b5f refs/remotes/aosp/cupcake
+e18b7b21c2fe0788e6cf1a1a055a25c2e5bc2dd8 refs/remotes/aosp/cupcake-release
+613d25b8c0fd1ab92c566d965e3cd7da85c31ee0 refs/remotes/aosp/donut
+a41a2d57909b7cebe8a76d7b9612202381571ce0 refs/remotes/aosp/donut-plus-aosp
 613d25b8c0fd1ab92c566d965e3cd7da85c31ee0 refs/remotes/aosp/donut-release
 613d25b8c0fd1ab92c566d965e3cd7da85c31ee0 refs/remotes/aosp/donut-release2
+7fd85e16828d1dd7d1705524e8610ad5b418d55b refs/remotes/aosp/eclair
 323028bd21a3d184efdcb2b6b0896fa343c32510 refs/remotes/aosp/eclair-passion-release
 323028bd21a3d184efdcb2b6b0896fa343c32510 refs/remotes/aosp/eclair-release
 323028bd21a3d184efdcb2b6b0896fa343c32510 refs/remotes/aosp/eclair-sholes-release
 323028bd21a3d184efdcb2b6b0896fa343c32510 refs/remotes/aosp/eclair-sholes-release2
 b678f3bb6c3fa3cc88cda872909ace5791a6304c refs/remotes/aosp/froyo
+709a302e77c44a3e3ee8359be3f2c9361f05d02c refs/remotes/aosp/froyo-plus-aosp
 b678f3bb6c3fa3cc88cda872909ace5791a6304c refs/remotes/aosp/froyo-release
 17f1ff8c99dada2cca93f68d434cf64a6dc692c2 refs/remotes/aosp/gingerbread
 17f1ff8c99dada2cca93f68d434cf64a6dc692c2 refs/remotes/aosp/gingerbread-mr4-release
@@ -232,12 +333,38 @@ c0ff7762509131a5a95ee258fa6da881a23100a6 refs/remotes/aosp/kitkat-cts-dev
 9640dd4ee526388aab152aaaa3bf8f098d8522de refs/remotes/aosp/kitkat-release
 18fc094c0ed41851be3d746423c6695dd28d48e1 refs/remotes/aosp/kitkat-wear
 4248e7c3cc06244b9d80a470e65dc95f862fccfa refs/remotes/aosp/l-preview
+65a03e4ba7f8981a1c8f0849a8af6c31c2825a41 refs/remotes/aosp/linaro_android_2.3.5
+65a03e4ba7f8981a1c8f0849a8af6c31c2825a41 refs/remotes/aosp/linaro_android_2.3.7
+26069a906355126b67d30f0d94b40093f696c99d refs/remotes/aosp/linaro_android_4.0.1
+28566b5cdf39b6ece2bf039eafa1ac7a69b868dc refs/remotes/aosp/linaro_android_4.0.3
+10c4a6ce00eca8d3d8091ef4dd44122b1f1e2501 refs/remotes/aosp/linaro_android_4.0.3_snowball_mm
+1a903e046791702b5371b7014367c7c1ca1222c5 refs/remotes/aosp/linaro_android_4.0.4
+0a5a56fcef5b84a5a5650def8df198809b65ffc6 refs/remotes/aosp/linaro_android_4.0.4_snowball
+b84f4b0a7cad621b4e94f1ad9272a30660c1074b refs/remotes/aosp/linaro_android_4.0.4_snowball_mm
+c037a21e720abc2d55e0bb0839ef46e64d3d82b2 refs/remotes/aosp/linaro_android_4.1.1
+5837fdafd805f0eb4289bd0e62d477dd3ffed0ce refs/remotes/aosp/linaro_android_4.1.2
+02b3aa54a9a69e9d1fd79dc809b53475b4063b24 refs/remotes/aosp/linaro_android_4.2
+02b3aa54a9a69e9d1fd79dc809b53475b4063b24 refs/remotes/aosp/linaro_android_4.2.1
+9c9bcc811ab7505373a29fb3762080fc2f71cb58 refs/remotes/aosp/linaro_android_4.2.2
+4a2315e5f5d70810eab16d2b2ffe44494f559a83 refs/remotes/aosp/linaro_android_4.3
+0a4e5cb18064287ccfa1e9babb21ca2fc3474822 refs/remotes/aosp/linaro_android_4.3.1
+94eacd43dae42166f229b2e2c99a53d2bd73ec86 refs/remotes/aosp/linaro_android_4.4
+a31e8d66803f0fc05dab12b2ef84448fb7fc511a refs/remotes/aosp/linaro_android_4.4.2
+a31e8d66803f0fc05dab12b2ef84448fb7fc511a refs/remotes/aosp/linaro_android_4.4.3
+a31e8d66803f0fc05dab12b2ef84448fb7fc511a refs/remotes/aosp/linaro_android_4.4.4
 4c20a09e8684657448f0bc97a2da4e56c94d484e refs/remotes/aosp/master
 af9565aa8be0136463ec549d9d3abdd906d2c390 refs/remotes/aosp/tools_r20
 e0232039e0a59f7ef4fc67dad178387b2d5fffba refs/remotes/aosp/tools_r21
 8d674a4b6f4300df90415889c2f57fe8b383e867 refs/remotes/aosp/tools_r22
 4c7db154564031237df705641f27d504d4ae3f11 refs/remotes/aosp/tools_r22.2
-e82622505dc7993c93e304f76ec9f37d8d894ab8 refs/remotes/m/hybris-4.2.2_r1
+709a302e77c44a3e3ee8359be3f2c9361f05d02c refs/remotes/aosp/tools_r7
+709a302e77c44a3e3ee8359be3f2c9361f05d02c refs/remotes/aosp/tools_r8
+709a302e77c44a3e3ee8359be3f2c9361f05d02c refs/remotes/aosp/tools_r9
+e82622505dc7993c93e304f76ec9f37d8d894ab8 refs/remotes/m/android-4.2.2_r1
+3da5bfb1bbd814ed2e0bdc4e7b9437eb5f5e89e2 refs/tags/android-1.5
+69359f997a01d376a1829b3e2347f11928fa597b refs/tags/android-1.5r2
+ccbc860550427c28a5d0fc58e49845223961da63 refs/tags/android-1.5r3
+0ce48084e92b25e1fc755a02a9c6598fbe52e54b refs/tags/android-1.5r4
 dd09667eb379f179669eb6617cb59846c1ce24ec refs/tags/android-1.6_r1
 5f9a0dd3630ab35a7e641f958bed1c1d89e7aeb3 refs/tags/android-1.6_r1.1
 36b98d07335d4a02a96d5e89bfeaad89993f1df2 refs/tags/android-1.6_r1.2
@@ -266,6 +393,7 @@ a4c93d1606a43e73bc4259900966e80638eefadb refs/tags/android-2.2_r1.2
 a37d8f19f709785ccb18369ff2e6c2df44102cbb refs/tags/android-2.3.2_r1
 11e6a809b69b007a6c5c95a2a998c102165ec1c5 refs/tags/android-2.3.3_r1
 ac25c490c0e76f59955742dfc8b43e0094954239 refs/tags/android-2.3.3_r1.1
+15c45cb99e36e2a3e31b848fe1831ff32783515e refs/tags/android-2.3.3_r1a
 0176f40c401505f0a0edf256055be63850968075 refs/tags/android-2.3.4_r0.9
 e6c7dcf8782d6d3396c4e710c8908327b6c14901 refs/tags/android-2.3.4_r1
 f837898c43814aac2f6dec29e7df011375e89fe0 refs/tags/android-2.3.5_r1
@@ -337,10 +465,28 @@ a595190974cc4eb521cafd75a6e7bd22ff39533f refs/tags/android-4.4_r1.1.0.1
 7dc715b7ecd6ad4048c1c909f35187c12d062d6f refs/tags/android-4.4_r1.2
 a687934b74e2fa2dc70642d20f572071a8099b7e refs/tags/android-4.4_r1.2.0.1
 33a0651480eb9b6a4ffceeede5f18c55aee9cf3d refs/tags/android-4.4w_r1
+717949b20648179fb505b112523d018de7540406 refs/tags/android-adt-0.9.8
+691f7eadc284cf796ba58f28892cf0bf76161449 refs/tags/android-adt-0.9.9
+07d160ce23b6f659edaf7eda896ed7771da53471 refs/tags/android-cts-2.1_r2
+3b4e6415c9ff344037a78f70d9bd3e019f53a8c2 refs/tags/android-cts-2.1_r3
+414dd0845a4ac7e5b6ae3f9446bf57f3ba817833 refs/tags/android-cts-2.1_r4
+2a1601f293fd61dfba8569397773032c646c696f refs/tags/android-cts-2.1_r5
+524cdc3416c1b9f8f19dcfe37a8a9e443b47ae44 refs/tags/android-cts-2.2_r1
+9accf8b866d9f25da7bda63850c14fc9197893ae refs/tags/android-cts-2.2_r2
+de081eff32af5fd3a91f6f47dec90aa73f979d86 refs/tags/android-cts-2.2_r3
+13d84a705da1d32bb9a622ad236236ec596af7d4 refs/tags/android-cts-2.2_r4
+06a78219ff5b463a8fd7258cdb697ffe11a3e570 refs/tags/android-cts-2.2_r5
+94d00c42a908b6386f1f7fd7ff0e57e99c66a9ab refs/tags/android-cts-2.2_r6
+ff8098bf6d745b9c82f098be3c564d728561a8bc refs/tags/android-cts-2.2_r7
 203436a3a36950b58f772ee50a75b8e62f9b3f50 refs/tags/android-cts-2.2_r8
+e912a275d9cbdc982519ab4aa373dc882243a815 refs/tags/android-cts-2.3_r1
 12b2f7a8b4950c4803ef84a5bef97d53a4fa42f9 refs/tags/android-cts-2.3_r10
 0acbf6f05589621f1c938d97a8a710a02251bd1d refs/tags/android-cts-2.3_r11
 dea94a227f0ff0007bad594a97481db62db68feb refs/tags/android-cts-2.3_r12
+92ed93099ec6d0a0ad76c9135d13bec6db12e08e refs/tags/android-cts-2.3_r2
+f78fae68f688736975b93899e2915ee041f3889e refs/tags/android-cts-2.3_r3
+462cda427c36b020b7c45f29c2f102a2bfe13ba5 refs/tags/android-cts-2.3_r4
+697cf9a96365e160f45122752b987429d552efaa refs/tags/android-cts-2.3_r5
 3735b89fad7c73073dbf6a9c4619e3c24f9f88cf refs/tags/android-cts-4.0.3_r1
 707d5947803f62869e76854492c7a717d1e56f6e refs/tags/android-cts-4.0.3_r2
 006815d25a6c544a1f1583c5aee82906a74d2d25 refs/tags/android-cts-4.0_r1
@@ -352,34 +498,64 @@ a3bdeee495ae9dc96d64262950b426923e60b11b refs/tags/android-cts-4.1_r2
 601f9f23fb0fb67c8d0842190f0fa14d3491e99f refs/tags/android-cts-4.4_r1
 735031ff9e6d4e1a279f3b9486975cf438f2c923 refs/tags/android-cts-verifier-4.0.3_r1
 66e321ef3ba264c31d8af2a6b2e25300820145ff refs/tags/android-cts-verifier-4.0_r1
+d4a85584c338bf2ff39825b3330208b290943769 refs/tags/android-sdk-1.5-pre
+e2488aa5758bfa18f03e7b7baac8662c2c6c4868 refs/tags/android-sdk-1.5_r1
+cbaf1ce9271e8ed04e8763d9803deddefa73472b refs/tags/android-sdk-1.5_r3
+f6bf01ae8607abd8f637a14b55af4ebdd36c782d refs/tags/android-sdk-1.6-docs_r1
+c6b2c8b11ed76a804a445606a825285daa54db9c refs/tags/android-sdk-1.6_r1
+60637a0f11a843c3c878352f033a848c05dcb4b5 refs/tags/android-sdk-1.6_r2
+992574d625f3d295766d8040509ef37ed8b936b4 refs/tags/android-sdk-2.0.1-docs_r1
+15d7206bb09a9324a103e9f0023fd1a851c30ef5 refs/tags/android-sdk-2.0.1_r1
+56a38938885c7bcea62107c3ad44aba68af032d1 refs/tags/android-sdk-2.0_r1
+4c825fa24e4cc9de07a4badda8994e27164e7695 refs/tags/android-sdk-2.1_r1
+2b463eeb254954bd99e84c628be89a7141d2bf78 refs/tags/android-sdk-2.2_r1
+052cbcfbfb6e10d29a3ca4302e557a1943c4f026 refs/tags/android-sdk-2.2_r2
+b243471ace75e8a43579298d90cae0bbb99a6d66 refs/tags/android-sdk-2.3.4_r1
 38e0a2bb04f8332aa78e5f26d4c29d743bdde33a refs/tags/android-sdk-4.0.3-tools_r1
 517225b63cab2ebd568c2b2d82d122909a3e843f refs/tags/android-sdk-4.0.3_r1
 9c91bc27f61e762be7f78e5821d9d1631a771edd refs/tags/android-sdk-4.4.2_r1
 da0f769f894a28c4967bb58b2e5117706bf09390 refs/tags/android-sdk-4.4.2_r1.0.1
+4efab4b16aceb82ec5dcad02db402b2bd0877ac4 refs/tags/android-sdk-adt_r12
 a83f3db63cc224d2837fc0e31bb11cdfc903691a refs/tags/android-sdk-adt_r16.0.1
 27b9e8974f27c11896d66cbe2ac7d4b989205487 refs/tags/android-sdk-adt_r20
 ea0be63f5c8dca5a09f41bd3880b0526f4e67b9b refs/tags/android-sdk-support_r11
+b27eb668b5a2a100af42f43538c6f99969c246a0 refs/tags/android-sdk-tools_r12
+1c717ea0853625a9311f0a96b81974cee8491762 refs/tags/android-sdk-tools_r2
+c4f9b8b1cf2bb79246962ab9ee664a1a14906daa refs/tags/android-sdk-tools_r3
+6f69d1d0b3d1535603416f0748fd06aa16fa2c71 refs/tags/android-sdk-tools_r4
+51aa34a32765ae7f051b7ae3ad3bc7ad0111b54f refs/tags/android-sdk-tools_r5
+7c9dadb0a2854a0694bce9c004d4dca9d6de2d9b refs/tags/android-sdk-tools_r6
+27740fc98de8b187e4f8fc2c3a656e79bf3a5bfa refs/tags/android-sdk-tools_r7
 + git remote -v
 aosp	https://android.googlesource.com/platform/hardware/libhardware_legacy (fetch)
 aosp	https://android.googlesource.com/platform/hardware/libhardware_legacy (push)
 
 
 ================================================
-system/core @ Thu Aug 21 10:20:10 Local time zone must be set--see zic manual page 2014
+system/core @ Tue Sep  2 19:29:18 CST 2014
 ================================================
-+ cd /media/build/Android/aosp-hybris
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1
 + repo status system/core
 nothing to commit (working directory clean)
-+ cd /media/build/Android/aosp-hybris/system/core
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1/system/core
 + git show-ref --head
-0294253e131e246a22c2d24dfc743ce477dfb434 HEAD
+4f247d753a8865cd16292ff0b720b72c28049786 HEAD
+28cc641b2e3ba1ef5b79d9be353bfed6fedd3fc8 refs/remotes/aosp/cdma-import
+c1bae58aa0c8f0b84a5a011eb54cebc7e9df5060 refs/remotes/aosp/cupcake
+8fbedcf73c0bfd2ecdbb4d4c93edd3d39dc28fd4 refs/remotes/aosp/cupcake-release
+84f79009e1f66d89a91110dcf7fd04524afdcf04 refs/remotes/aosp/dev-2.3.4
+b4d65399fde02280b718e3b5b5cb1464a885c4b0 refs/remotes/aosp/dev_dallas_sprint
+825bd26a95cb01c2a4d2e1d51492ab81dcecc373 refs/remotes/aosp/donut
+e85705ca90220c65cbdf01d1bc9d53bda75f755c refs/remotes/aosp/donut-plus-aosp
 46ef2b87d01a2df67074351d0078bf900550f343 refs/remotes/aosp/donut-release
 3dddb16b303b3035b6adfd578c160b8024dfb2b4 refs/remotes/aosp/donut-release2
+21a88c1628ac0a21e177dd0d1f04406061bf7f95 refs/remotes/aosp/eclair
 1404c27bff1499dae9b640870ce2251d78cdc5ef refs/remotes/aosp/eclair-passion-release
 dc9cf66c6e470f0ebcd77006e3f549c338ab4fab refs/remotes/aosp/eclair-release
 bace01078259614f54c5082fae9ccdb37f27590c refs/remotes/aosp/eclair-sholes-release
 dc9cf66c6e470f0ebcd77006e3f549c338ab4fab refs/remotes/aosp/eclair-sholes-release2
 007a408918bee75468f3c1c0d7d7c66db9564863 refs/remotes/aosp/froyo
+cbb9257a872a0f35b0aa1018410ca6025e628c36 refs/remotes/aosp/froyo-plus-aosp
 3103c2f6d8a8aa60710b99ceaacc3cae4c3b72eb refs/remotes/aosp/froyo-release
 a51b3ccfeb7c675005e3eeacb2dff38c0e100883 refs/remotes/aosp/gingerbread
 838a24ac661dfb5147dd584e6dc36dc74c61725e refs/remotes/aosp/gingerbread-mr4-release
@@ -415,60 +591,63 @@ efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/aosp/kitkat-mr2.2-release
 19ebdadee468bfbf28b4118aa1990e5eeb46e94a refs/remotes/aosp/kitkat-release
 efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/aosp/kitkat-wear
 dbb93515c9a1a60a6e824e789920f43d625a8c2a refs/remotes/aosp/l-preview
-3e13ed0864944c5fcff9d519eacf1f75c7db652a refs/remotes/aosp/master
+08ebb5a43853c71a846c75f60ed6dda7ca66d5be refs/remotes/aosp/linaro-armv8-14.07
+3d82802e9c153fc6307e8e0ac654316f767d59d2 refs/remotes/aosp/linaro-armv8-14.08
+20eb2f90f810a256e864d5d9550db46cf587c266 refs/remotes/aosp/linaro-armv8-20140531
+60d4dfae50a65980b34f28639b468aa8bddea271 refs/remotes/aosp/linaro-armv8-20140613
+f1ed09b81b46ccdb601d65e9c5b515742b22e8e4 refs/remotes/aosp/linaro-juice2-20140507
+448f9216fe1215a25e85a302b07d87007c28cb9e refs/remotes/aosp/linaro-juno-master
+c4d4f94cb043d5806af090bad60f4f7e20b7e149 refs/remotes/aosp/linaro-master
+b4d65399fde02280b718e3b5b5cb1464a885c4b0 refs/remotes/aosp/linaro_android_2.3.1
+b4d65399fde02280b718e3b5b5cb1464a885c4b0 refs/remotes/aosp/linaro_android_2.3.2
+70d9fd73cdacea4a7d25db76cc86a253e5d2f757 refs/remotes/aosp/linaro_android_2.3.3
+1987661ac0b81d8dd9b66960d30ed9f2557db268 refs/remotes/aosp/linaro_android_2.3.4
+ec4243f661d7f6609a882da7ecba8dcf5aa25285 refs/remotes/aosp/linaro_android_2.3.5
+ec4243f661d7f6609a882da7ecba8dcf5aa25285 refs/remotes/aosp/linaro_android_2.3.7
+4de840525d812ad57df86f18c5d59b688d972cfc refs/remotes/aosp/linaro_android_4.0.1
+015df75bed73df07dab0672931b859c9d9df3575 refs/remotes/aosp/linaro_android_4.0.1_origen
+f27036f5f09decb935e7994c35d88d23ad392060 refs/remotes/aosp/linaro_android_4.0.1_snowball
+f1ab0dd3a3d1a4aa3497151a1033fa6cbe4a9223 refs/remotes/aosp/linaro_android_4.0.3
+fac0f6f892c08ab0b3b7d93c1f43dc9617709275 refs/remotes/aosp/linaro_android_4.0.3_origen
+f0df188a313f09eece9d57b6b123f3906498180f refs/remotes/aosp/linaro_android_4.0.3_snowball
+2fc70df08f2cede5fca51f9946867258be9e63bf refs/remotes/aosp/linaro_android_4.0.3_snowball_mm
+cb07d04b8898da5033e0d5ab78bdab3a06ee0d9a refs/remotes/aosp/linaro_android_4.0.4
+d2a78fe859c6c33f7b2ec7d2d2c94200b2c393ff refs/remotes/aosp/linaro_android_4.0.4_snowball
+3d2a5b8de01c79f1dadcb9578ed68f51a5c19720 refs/remotes/aosp/linaro_android_4.0.4_snowball_mm
+3124f08f217066f2bc9a242a5caadf30eeeffc8b refs/remotes/aosp/linaro_android_4.1.1
+dd28bb9220fc39f6bf793dcf2d5938e928338497 refs/remotes/aosp/linaro_android_4.1.2
+f7bda77d261537897229c74a6d590bd29ffa5fb0 refs/remotes/aosp/linaro_android_4.2
+472fcf28b3675d07db95905b2ba610b8b233ae1f refs/remotes/aosp/linaro_android_4.2.1
+6062406deefddb0471f7056789ec2e392754f87b refs/remotes/aosp/linaro_android_4.2.1_juice
+8af3cfa8c9fcd3a07a269419b22be3e52ead0dd5 refs/remotes/aosp/linaro_android_4.2.1_juice-linaro
+dbab598466b93cf9c72e6da423269aa02820b3fe refs/remotes/aosp/linaro_android_4.2.2
+f4d5ed5bf7a00501db882e7f9f97df5e2f1341f0 refs/remotes/aosp/linaro_android_4.2.2_juice
+082120d2955cd41b34ce9c9c0041c24fe6eb7822 refs/remotes/aosp/linaro_android_4.2_build_fixes_only
+0d3bf4987f4ab8d48460467a43d8075e9de9ceb7 refs/remotes/aosp/linaro_android_4.3
+a6b39a0182c6781176d56f759f18589d03a58bf3 refs/remotes/aosp/linaro_android_4.3.1
+195841a209d5ef9698ae7bdac145b6ddec8f12ea refs/remotes/aosp/linaro_android_4.3_juice
+5cbf599f28aa9e9b4ebbca4947367d1a44308539 refs/remotes/aosp/linaro_android_4.4
+b9e2b23277a9910c8f6ec158757814541572cebe refs/remotes/aosp/linaro_android_4.4.2
+df499fb8cb288e7821baabed0556068028de1dce refs/remotes/aosp/linaro_android_4.4.2_juice
+b48125501a0aef43a16c63c2b2cc612fa5a0848b refs/remotes/aosp/linaro_android_4.4.3
+b48125501a0aef43a16c63c2b2cc612fa5a0848b refs/remotes/aosp/linaro_android_4.4.4
+3406c4661d7dc4a874574dcbed309102c186c78d refs/remotes/aosp/linaro_android_4.4_juice
+0de1031ceaf3976c9318ba89f83e61addf97adec refs/remotes/aosp/linaro_master_compilefixes_only
+7a1973ece3f3f5e1870f7b169281b48b0ca1cd3c refs/remotes/aosp/master
+4f6e8d7a00cbeda1e70cc15be9c4af1018bdad53 refs/remotes/aosp/release-1.0
 91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64 refs/remotes/aosp/tools_r20
 7b88a90da2a27e347fc16c14fa577f4ae1ef07fd refs/remotes/aosp/tools_r21
 7382459eca9632168b9d393bc77fb62bc21bb67a refs/remotes/aosp/tools_r22
 596e9c6314e4f2869499bcdbb816680ddb10c88f refs/remotes/aosp/tools_r22.2
-46ef2b87d01a2df67074351d0078bf900550f343 refs/remotes/github/donut-release
-3dddb16b303b3035b6adfd578c160b8024dfb2b4 refs/remotes/github/donut-release2
-1404c27bff1499dae9b640870ce2251d78cdc5ef refs/remotes/github/eclair-passion-release
-dc9cf66c6e470f0ebcd77006e3f549c338ab4fab refs/remotes/github/eclair-release
-bace01078259614f54c5082fae9ccdb37f27590c refs/remotes/github/eclair-sholes-release
-dc9cf66c6e470f0ebcd77006e3f549c338ab4fab refs/remotes/github/eclair-sholes-release2
-007a408918bee75468f3c1c0d7d7c66db9564863 refs/remotes/github/froyo
-3103c2f6d8a8aa60710b99ceaacc3cae4c3b72eb refs/remotes/github/froyo-release
-a51b3ccfeb7c675005e3eeacb2dff38c0e100883 refs/remotes/github/gingerbread
-838a24ac661dfb5147dd584e6dc36dc74c61725e refs/remotes/github/gingerbread-mr4-release
-838a24ac661dfb5147dd584e6dc36dc74c61725e refs/remotes/github/gingerbread-release
-0294253e131e246a22c2d24dfc743ce477dfb434 refs/remotes/github/hybris-4.2.2_r1
-b1966c5e76eb0090822ab02aec056f032b70e2ff refs/remotes/github/ics-factoryrom-2-release
-c60232434c941b5175a9ebb542b1c872866d3409 refs/remotes/github/ics-mr0
-4a2539085062a715b0d345eb50ea48738423c909 refs/remotes/github/ics-mr0-release
-d6fec06b797695fe1762b489abe5361ccc3c2005 refs/remotes/github/ics-mr1
-c2db4ffb874783220abf967ca4ccd0e6cf1ba57f refs/remotes/github/ics-mr1-release
-91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64 refs/remotes/github/ics-plus-aosp
-6fec3a23046a3100c2ce1863afdd0191da69cdcc refs/remotes/github/idea133
-8e26b2522267658ef996631a3a43818c1baf6fc3 refs/remotes/github/idea133-weekly-release
-e89e09dd2b9b42184973e3ade291186a2737bced refs/remotes/github/jb-dev
-ca38f2c7cde05b67bc8d582040210c4aad303298 refs/remotes/github/jb-mr0-release
-92b2cd23f708c9aeed146e995807dce080b57d1a refs/remotes/github/jb-mr1-dev
-241194cad4b27ffd1cb574cb10c4c6941ef3882f refs/remotes/github/jb-mr1-dev-plus-aosp
-7d5f33ed55b9511a64d3e73b33366718972f74af refs/remotes/github/jb-mr1-release
-75f29709af6d053168402dd12cdf8b0a58b0c35e refs/remotes/github/jb-mr1.1-dev
-5954ecb87b8c77425d8cc766c0cc798957a07a7d refs/remotes/github/jb-mr1.1-dev-plus-aosp
-4f247d753a8865cd16292ff0b720b72c28049786 refs/remotes/github/jb-mr1.1-release
-76c5889325c2ada5dda07fd9af20a4a485978538 refs/remotes/github/jb-mr2-dev
-cd07446afea9a3e5090eb9a92597794f37f85130 refs/remotes/github/jb-mr2-release
-6647bf7285defdd4d5a51677d63d5ec2e722a104 refs/remotes/github/jb-mr2.0-release
-821678e1c7bd0af12fa4adc314c9024def9ba7c0 refs/remotes/github/jb-mr2.0.0-release
-b8d3d0e905b82d3fee42d955968c4f57c1776086 refs/remotes/github/jb-release
-169c12b5cf55d9574f98935d5517d20f55f62be8 refs/remotes/github/kitkat-cts-dev
-efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/github/kitkat-dev
-e65b7ea8801145626504c724c28aedd0e5038a28 refs/remotes/github/kitkat-mr1-release
-e65b7ea8801145626504c724c28aedd0e5038a28 refs/remotes/github/kitkat-mr1.1-release
-efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/github/kitkat-mr2-release
-efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/github/kitkat-mr2.1-release
-efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/github/kitkat-mr2.2-release
-19ebdadee468bfbf28b4118aa1990e5eeb46e94a refs/remotes/github/kitkat-release
-efbf36f2dad8f083de6f48dbb682461d7cfa9781 refs/remotes/github/kitkat-wear
-dbb93515c9a1a60a6e824e789920f43d625a8c2a refs/remotes/github/l-preview
-e1ba39aa6644feb9c5f742f65db6d3363203951f refs/remotes/github/master
-91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64 refs/remotes/github/tools_r20
-7b88a90da2a27e347fc16c14fa577f4ae1ef07fd refs/remotes/github/tools_r21
-7382459eca9632168b9d393bc77fb62bc21bb67a refs/remotes/github/tools_r22
-596e9c6314e4f2869499bcdbb816680ddb10c88f refs/remotes/github/tools_r22.2
-0294253e131e246a22c2d24dfc743ce477dfb434 refs/remotes/m/hybris-4.2.2_r1
+f41986bbc79055a4feed7266cac5c1b540296daf refs/remotes/aosp/tools_r7
+cbb9257a872a0f35b0aa1018410ca6025e628c36 refs/remotes/aosp/tools_r8
+cbb9257a872a0f35b0aa1018410ca6025e628c36 refs/remotes/aosp/tools_r9
+0216c54bb71a70d1cb78f603aa9a3f2c75c47a37 refs/remotes/m/android-4.2.2_r1
+c006d4977fb57abb2e76e4003cbf7dc1111edfb2 refs/tags/android-1.0
+3e858775755c04dda7d007ce959d97c34a95093d refs/tags/android-1.5
+4c1431127cd4e7c19c2fed21bce7c621ec0e78a2 refs/tags/android-1.5r2
+a081657ff2de634f5da7f7e92a0e71335d302a33 refs/tags/android-1.5r3
+7abe000986171888e501bb391ae1eca4ac567030 refs/tags/android-1.5r4
 4fcdf6fccfdce61302def3fe257537322118ba4c refs/tags/android-1.6_r1
 f83c499add53087817506654eab1457ee5fda97e refs/tags/android-1.6_r1.1
 9c7058229c6e26b209becc7d421f2bd231cfa245 refs/tags/android-1.6_r1.2
@@ -497,6 +676,7 @@ b1d0a053c552a8c7a36c4e97e7873266575f4626 refs/tags/android-2.3.1_r1
 7fb133045e26d6cb6bce8e6ab2dc31f68b30fd52 refs/tags/android-2.3.2_r1
 234daba43615ecec7f3989907200f202baf4ca74 refs/tags/android-2.3.3_r1
 311ebee3a2126c3dc2aacc0bd3a70f7acecce736 refs/tags/android-2.3.3_r1.1
+9bf5af015002eb146b564b8e49217cc17a3d2ab8 refs/tags/android-2.3.3_r1a
 6271dbf46986f4e5e377110cc84ed88031b96aa4 refs/tags/android-2.3.4_r0.9
 7fd516a0709ad237003c6fa089d433a19060d7f5 refs/tags/android-2.3.4_r1
 62687c5c2e0a5b54095e4ec5c3814ac54e56908e refs/tags/android-2.3.5_r1
@@ -545,23 +725,51 @@ cf140f3c03fc108c1dcaa79325b172d870497b89 refs/tags/android-4.3_r2.2
 e7d4b5fedd65d57ac0298c24ccbcb0ed4ac5a2ce refs/tags/android-4.3_r3
 8b956f03e2b4f629c4a96f9ee5b3b7087504c257 refs/tags/android-4.3_r3.1
 fd27d6167c06af4d66a39b3feff1390ef6952eb2 refs/tags/android-4.4.1_r1
+a527cc605df0dcaec9adb841e8b3e5c98c2857ce refs/tags/android-4.4.1_r1.0.1
 d89fe2b5061cea9e03712af648c7832a38269ad7 refs/tags/android-4.4.2_r1
+0d0eb06a369c487b5b22815469460c9de5a7d972 refs/tags/android-4.4.2_r1.0.1
 c176ab91988ec3b9ee54663f301cc9db1882d2a4 refs/tags/android-4.4.2_r2
+5bd1cd63bebf718bf0912ddd360673b94ec0460d refs/tags/android-4.4.2_r2.0.1
 a60f38376bf1a597c3d6b94fa87a60e4adb0b7ef refs/tags/android-4.4.3_r1
+8898b89448f08277d0ff0df30cec5ec3e3d28872 refs/tags/android-4.4.3_r1.0.1
 e0379c8c9844ac332b63e46a499bb242412e0724 refs/tags/android-4.4.3_r1.1
+8ddf78d232e84c79b695f669ccb8bec5a641dafc refs/tags/android-4.4.3_r1.1.0.1
 c33036b592f8b1545d442fcf13d36e1ed0ed9e2c refs/tags/android-4.4.4_r1
+fa62df2ac7f6f695488755d904386cfcb55f7b27 refs/tags/android-4.4.4_r1.0.1
 d60446dab53111ae26391086a3e20a0f84697538 refs/tags/android-4.4.4_r2
+53bd3ba075447941e4b85cb81575c7febe92d537 refs/tags/android-4.4.4_r2.0.1
 5c20860b00e76277b0a41a0022eae21a27d04532 refs/tags/android-4.4_r0.7
 e93430dedab45e5b58e9e5340b04314f328d6bc0 refs/tags/android-4.4_r0.8
 1cd76a40a8fa5a060595a877f9f2fe2f86843b46 refs/tags/android-4.4_r0.9
 020b8a02e2b7015a986935e5b7da1ee79fbbca1b refs/tags/android-4.4_r1
+e1c69c911ac4730c300c57afc1727d8a87825fd9 refs/tags/android-4.4_r1.0.1
 cc5101852d5cd95f468ac5e6d7b5d249be55c3cb refs/tags/android-4.4_r1.1
+597f6670fa51a1279d35e6e4cce4c77948104c6f refs/tags/android-4.4_r1.1.0.1
 3e453498083d3caa38f25d0ba6cc7c9829010bbc refs/tags/android-4.4_r1.2
+4c704aa3a9293a617d027fd6d547ecc08409062d refs/tags/android-4.4_r1.2.0.1
 ac89b617e8b465bfffbb1a554ee4077df7d1377e refs/tags/android-4.4w_r1
+51bac9f6845977006e563451e1131332c15902aa refs/tags/android-adt-0.9.8
+0eb98658f369b363031c38fafaf455bebbdba412 refs/tags/android-adt-0.9.9
+bf216c6048143440e41dfe955442ca40ce1d0dba refs/tags/android-cts-2.1_r2
+fdea8bfdbe19db3428dfd594adf82ddd52ad9f76 refs/tags/android-cts-2.1_r3
+9adafff67128a34a63d03eef7bd64bd51e5b7818 refs/tags/android-cts-2.1_r4
+2dbfbba13b2db6a30f51b90a5138f371497087f6 refs/tags/android-cts-2.1_r5
+50662bdcd906309f75bc61cc3b8f20e32f6f01bc refs/tags/android-cts-2.2_r1
+0f34606c50b71c5ccbe3a8a1b2ac5211aad7bf7f refs/tags/android-cts-2.2_r2
+f639e53de9fe93680ecd8d686be5c85d07f23cd0 refs/tags/android-cts-2.2_r3
+6a9bd3ee0f8286721c737a100d83cc85e482fad1 refs/tags/android-cts-2.2_r4
+da97504a6a2bbe0917cb3dec74cc966ce51c0ff0 refs/tags/android-cts-2.2_r5
+4e1bb4813c15a882c77fe1600f3bfb0dd73650a1 refs/tags/android-cts-2.2_r6
+3122e3919b9a5044a196719f41fe0143bb61bb94 refs/tags/android-cts-2.2_r7
 c7b6af3fcc1ead34da49c9071062bb6d0f8b1495 refs/tags/android-cts-2.2_r8
+55017b1623fd80201e09b3b575515f72be228bf1 refs/tags/android-cts-2.3_r1
 ccbfb49893870667771afff9a026044af93d3a16 refs/tags/android-cts-2.3_r10
 5f0f922ba210e366250de470e83da8a5916d0174 refs/tags/android-cts-2.3_r11
 481ffb0fe6e5f5dfc3ba1182d2e8fbbb3dd20a96 refs/tags/android-cts-2.3_r12
+6462120f25e12e722bb58293049f04ad12ef766a refs/tags/android-cts-2.3_r2
+be87dcece6d8d95887c91de1fe2e0d7b26e9ee4a refs/tags/android-cts-2.3_r3
+2ffd5c8fed2c15838c0f454aafd57a973ad16a4b refs/tags/android-cts-2.3_r4
+899b93a7007a67cadb043ce4a62333205f1991b8 refs/tags/android-cts-2.3_r5
 e113acb0d0af2c45fd38f3864a5ba82e0a4004bc refs/tags/android-cts-4.0.3_r1
 2374428134d9c80f5f5873ffd9541bd010b4da06 refs/tags/android-cts-4.0.3_r2
 da434f5f223169895bb71eb33ca43d24aeae31c9 refs/tags/android-cts-4.0_r1
@@ -573,26 +781,46 @@ fa59ca87d2704fc78a1039eaab8a0a9c1d9bfff9 refs/tags/android-cts-4.2_r2
 f744b9f11d82b049e92e28341c5e135fcd67c8f5 refs/tags/android-cts-4.4_r1
 add140de61d24574879e888190ec2315ed3e475c refs/tags/android-cts-verifier-4.0.3_r1
 36c967f423736dd0ad83b6ffdd59838c5e4da5ee refs/tags/android-cts-verifier-4.0_r1
+fa7e2e71230422e7d034045719948e959cb02a19 refs/tags/android-sdk-1.5-pre
+7e9e9ef1208ac581d6eb30a57e317989533afa71 refs/tags/android-sdk-1.5_r1
+054be3eea2da35016f54f8c93109bc5b7a1b7fc4 refs/tags/android-sdk-1.5_r3
+9c37b155b4081739403a349de39325decf0c148f refs/tags/android-sdk-1.6-docs_r1
+2680f07a4a63289a034b11d8d8ddf71f4e63be34 refs/tags/android-sdk-1.6_r1
+fdbb18358d3d58fa010463f74d193ef37648f573 refs/tags/android-sdk-1.6_r2
+d20baea9a35a780668512de1562c040ff857d9f6 refs/tags/android-sdk-2.0.1-docs_r1
+f917510a3deb5b63fb9236f690c768902f1ad209 refs/tags/android-sdk-2.0.1_r1
+8b6532da0e3b1cda0bd46974e6ca28874bbd8cee refs/tags/android-sdk-2.0_r1
+807dea6f0a829c2c8d4251b24a82668e32db2c86 refs/tags/android-sdk-2.1_r1
+32ff9c4e4cb8ca50344c5497fe80d13aff110219 refs/tags/android-sdk-2.2_r1
+2818c6e91c92364aa33fc66c6a8f1582f337fc85 refs/tags/android-sdk-2.2_r2
+a26b18b2b519ebbc10ec32c82c9bcfb1c42388c3 refs/tags/android-sdk-2.3.4_r1
 6f2fbc7de2ba44d02c97f7326ca90a081f91ae6a refs/tags/android-sdk-4.0.3-tools_r1
 1981cdfc614748217108a25a4d7509caa4c8b7ff refs/tags/android-sdk-4.0.3_r1
 a527eb4005765730166f0ba4771e734260578cbb refs/tags/android-sdk-4.4.2_r1
+20769637575908df00b78be39f34742aface545e refs/tags/android-sdk-4.4.2_r1.0.1
+f99f1f5b163c0bad75bc510f23a5693eb9658167 refs/tags/android-sdk-adt_r12
 490e66315befc183d962990c76b303e886a8d5f0 refs/tags/android-sdk-adt_r16.0.1
 79456766e02bfa53bb5edb32d8b085316877822e refs/tags/android-sdk-adt_r20
 4e2d268ee2a4868f9790506277245b9825f60b63 refs/tags/android-sdk-support_r11
+0860a377416d1be3964bca4b4859577c22bf4570 refs/tags/android-sdk-tools_r12
+6bb22dcbe16b64b68f21f5c62c897488ee6c899e refs/tags/android-sdk-tools_r2
+bdb3a431f03a6a222e6e8aa655e375ae9a7cc756 refs/tags/android-sdk-tools_r3
+16b85836ed7dbfb7c40742522bd7df03108c7fe2 refs/tags/android-sdk-tools_r4
+c17ec642b15e109c2553401eb2274b5f7b84bb9f refs/tags/android-sdk-tools_r5
+0e4f4a268fabe46971a5624747a6a43173a2580f refs/tags/android-sdk-tools_r6
+02c335ebaf00cac106a788eceb90bdb0ccdd9e65 refs/tags/android-sdk-tools_r7
 + git remote -v
 aosp	https://android.googlesource.com/platform/system/core (fetch)
 aosp	https://android.googlesource.com/platform/system/core (push)
-github	https://github.com/aosp-hybris/platform_system_core (fetch)
-github	https://github.com/aosp-hybris/platform_system_core (push)
 
 
 ================================================
-external/libnfc-nxp @ Thu Aug 21 10:20:10 Local time zone must be set--see zic manual page 2014
+external/libnfc-nxp @ Tue Sep  2 19:29:18 CST 2014
 ================================================
-+ cd /media/build/Android/aosp-hybris
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1
 + repo status external/libnfc-nxp
 nothing to commit (working directory clean)
-+ cd /media/build/Android/aosp-hybris/external/libnfc-nxp
++ cd /Volumes/HFSP/Android/aosp-4.2.2_r1/external/libnfc-nxp
 + git show-ref --head
 54222dd9925b48b9d124a1f73302866cb5256788 HEAD
 6900b4e2cc281db57d5e811f53a6f17eb0ebb78b refs/remotes/aosp/gingerbread
@@ -629,16 +857,19 @@ b99be65c277b0cc65a00a33e784ed49461531737 refs/remotes/aosp/ics-mr1
 9e987ccb716624d658f98abc7db2097e11e3d8ed refs/remotes/aosp/kitkat-release
 9e987ccb716624d658f98abc7db2097e11e3d8ed refs/remotes/aosp/kitkat-wear
 15d81f71a668b3092549c6b7f83694bf680d9c49 refs/remotes/aosp/l-preview
+4aed1f612b835d012e744963396a3d6b61dc4f4f refs/remotes/aosp/linaro_android_2.3.5
+7c521c20b7fd51b1894b98184e4fa65cf459c2ef refs/remotes/aosp/linaro_android_2.3.7
 15d81f71a668b3092549c6b7f83694bf680d9c49 refs/remotes/aosp/master
 65ce34545ca9a1b77b54acd373618821d8123ef8 refs/remotes/aosp/tools_r20
 e4d3c945777c912ba71e79ac99cb11190cf8f90a refs/remotes/aosp/tools_r21
 54222dd9925b48b9d124a1f73302866cb5256788 refs/remotes/aosp/tools_r22
 42f5b41d22bbbad1b16b9cd3aba0512a399f32a6 refs/remotes/aosp/tools_r22.2
-8af4806f7ae17032e6d744ea7c3732edff424e82 refs/remotes/m/hybris-4.2.2_r1
+8af4806f7ae17032e6d744ea7c3732edff424e82 refs/remotes/m/android-4.2.2_r1
 71e2cc86087be2c40c8a3541ad7bf80f3dcdeae0 refs/tags/android-2.3.1_r1
 d222e1b911a72ecc6836a502c72942059c39d917 refs/tags/android-2.3.2_r1
 1d2728d74ccbd5fae79d2d551a6079c672c3e464 refs/tags/android-2.3.3_r1
 c5552a2a68a74fc3764bb157141ae26b360a0626 refs/tags/android-2.3.3_r1.1
+2073dbd8aba367d010b31d2099e28e5ea61b4713 refs/tags/android-2.3.3_r1a
 c16f9215cb54981391772d2df5a84d422a0b55fe refs/tags/android-2.3.4_r0.9
 5c2b40800ab50fd526fa2fa1b9f1f4431c58b2de refs/tags/android-2.3.4_r1
 50c67d47b7f86f9b51860c26c02ce7a90f9bafcb refs/tags/android-2.3.5_r1
@@ -710,9 +941,14 @@ b608e7a2f51155f994763a6ff980c41fc998c906 refs/tags/android-4.4_r1.0.1
 3f0b1c9ea585d3330dfb3264b1f95755e20f5698 refs/tags/android-4.4_r1.2
 f46398116e00398c0b720868c3709479ba3b9144 refs/tags/android-4.4_r1.2.0.1
 024783044212dc19a24cda87a1cfc6bfec444802 refs/tags/android-4.4w_r1
+44330f5e27f293810f90987e538b754948f91e1b refs/tags/android-cts-2.3_r1
 d41fe9c893794b09e520ec2be3220476af7d3b3d refs/tags/android-cts-2.3_r10
 4a671cb8f0533bdff4c0192e53ab0a895352f3d2 refs/tags/android-cts-2.3_r11
 4465abd258368795f120828ccb6873880992e1f4 refs/tags/android-cts-2.3_r12
+9a8eb91f9c24f761d97a2474c93bd3a9a5c18e6d refs/tags/android-cts-2.3_r2
+5dac269134ed69a1de42bf0a8ccc317611191a07 refs/tags/android-cts-2.3_r3
+a114c6f82552a5fb2b7de3dc28db43204d294823 refs/tags/android-cts-2.3_r4
+fae26ec6da148d3e5fe9c0890583c8521081884d refs/tags/android-cts-2.3_r5
 8c71c1dcd13c2022e7cac3c0abc5fec590339bb9 refs/tags/android-cts-4.0.3_r1
 cdcc3d5ffd54212305f8f11ddea4dd41849a20a9 refs/tags/android-cts-4.0.3_r2
 38ec1099426d6e51d41139d90c188620ac8fc179 refs/tags/android-cts-4.0_r1
@@ -724,15 +960,22 @@ fbd6bbd2057434f280f6e51ffa45f414602a9e8f refs/tags/android-cts-4.2_r2
 30779d8f4293d747f0aa990aaed2bf12771f7e6c refs/tags/android-cts-4.4_r1
 d94f7135865541485d477e7413aea8f81e8a9d24 refs/tags/android-cts-verifier-4.0.3_r1
 708c19fd48f1531f21e0a224214ad6adb98b4359 refs/tags/android-cts-verifier-4.0_r1
+a4cfb874d338f3a11687b1e7f9c3f323817d3d80 refs/tags/android-sdk-2.3.4_r1
 bd4f5da1f59e9fd2971c794d8496e96ef6f81c76 refs/tags/android-sdk-4.0.3-tools_r1
 80f9261872b55877b868a73f0dd8a11967babb53 refs/tags/android-sdk-4.0.3_r1
 7f4ebadc862c4a40da2815ed94c1c5fddc45bf49 refs/tags/android-sdk-4.4.2_r1
 4b240b490b6be01d4c1dea895a948d7832078a4c refs/tags/android-sdk-4.4.2_r1.0.1
+b7d2244c7d035222d0048a52201aafa4cd4f52a8 refs/tags/android-sdk-adt_r12
 afaefb8e3a6b3f03db04dd2e7de6c069e0635e0d refs/tags/android-sdk-adt_r16.0.1
 b6513deaa8810ad879323cca9a2875689e5ff716 refs/tags/android-sdk-adt_r20
 062085a053252c57c2db5f63cafb4bd1d51d46e2 refs/tags/android-sdk-support_r11
+214ab31805c9c2cde9275e730972816194226ce9 refs/tags/android-sdk-tools_r12
 + git remote -v
 aosp	https://android.googlesource.com/platform/external/libnfc-nxp (fetch)
 aosp	https://android.googlesource.com/platform/external/libnfc-nxp (push)
 
 
+================================================
+external/linux-headers @ Tue Sep  2 19:29:18 CST 2014
+================================================
+WARNING: external/linux-headers does not contain a Git repository
